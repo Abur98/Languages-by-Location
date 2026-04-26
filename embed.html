@@ -3,7 +3,7 @@
 <head>
 <style>
   * { margin: 0; padding: 0; }
-  body { overflow: hidden; }
+  body { overflow: hidden; background: #000; }
   .crop {
     width: 100%;
     height: 100vh;
@@ -12,15 +12,16 @@
   }
   iframe {
     width: 100%;
-    height: calc(100vh + 160px); /* adjust 120px to how tall the toolbar is */
+    height: calc(100vh + 220px);
     border: none;
-    margin-top: -160px; /* same number, hides the top toolbar */
+    margin-top: -220px;
+    display: block;
   }
 </style>
 </head>
 <body>
   <div class="crop">
-    <iframe src="Language%20Map%20By%20Dorms%20%2B%20Commuter%20%2B%20Off-Campus.html"></iframe>
+    <iframe src="Language%20Map%20By%20Dorms%20%2B%20Commuter%20%2B%20Off-Campus.html" scrolling="no"></iframe>
   </div>
 </body>
 </html>
